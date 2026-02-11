@@ -1,0 +1,23 @@
+/* src/components/LatestBlocks.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f3f3f3;
+  color: #333;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #fafafa;
+}

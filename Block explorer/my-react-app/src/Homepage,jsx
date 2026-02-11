@@ -1,0 +1,13 @@
+// src/pages/Home.jsx
+import LatestBlocks from "../components/LatestBlocks";
+
+function Home() {
+  return (
+    <div>
+      <h1>Latest Blocks</h1>
+      <LatestBlocks />
+    </div>
+  );
+}
+
+export default Home;
